@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Golden Hour Films — Wedding & Event Cinematography</title>
+<meta name="description" content="Cinematic wedding and event films, shot to be felt.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;600;700;900&family=Newsreader:ital,wght@0,400;0,500;1,400;1,500&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- grain overlay -->
+<div class="grain" aria-hidden="true"></div>
+
+<!-- live timecode, the site's signature element -->
+<div class="rec-indicator" aria-hidden="true">
+  <span class="rec-dot"></span>
+  <span class="rec-label">REC</span>
+  <span class="rec-time" id="recTime">00:00:00:00</span>
+</div>
+
+<!-- ============ NAV ============ -->
+<header class="site-header">
+  <a href="#top" class="brand">Golden&nbsp;Hour<span>Films</span></a>
+
+  <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false" aria-controls="primaryNav">
+    <span></span><span></span><span></span>
+  </button>
+
+  <nav class="primary-nav" id="primaryNav">
+    <a href="#reel"><span class="nav-index">01</span>The&nbsp;Reel</a>
+    <a href="#about"><span class="nav-index">02</span>About</a>
+    <a href="#formats"><span class="nav-index">03</span>Formats</a>
+    <a href="#contact"><span class="nav-index">04</span>Inquire</a>
+  </nav>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="top">
+  <div class="hero-bg" aria-hidden="true"></div>
+  <div class="hero-vignette" aria-hidden="true"></div>
+
+  <div class="hero-content">
+    <p class="eyebrow">Wedding &amp; Event Cinematography</p>
+    <h1 class="hero-title">Some days<br>deserve&nbsp;a&nbsp;<em>director.</em></h1>
+    <p class="hero-sub">Golden Hour Films shoots weddings and events as living, breathing
+      stories — not just coverage. Every vow, every toast, every glance held a beat too
+      long, kept exactly as it happened.</p>
+
+    <div class="hero-actions">
+      <a href="#reel" class="btn btn-primary">View the Reel</a>
+      <a href="#contact" class="btn btn-ghost">Check Your Date</a>
+    </div>
+  </div>
+
+  <a href="#reel" class="scroll-cue" aria-label="Scroll to portfolio">
+    <span class="scroll-cue-line"></span>
+    <span>SCROLL</span>
+  </a>
+</section>
+
+<!-- ============ REEL / PORTFOLIO ============ -->
+<section class="reel" id="reel">
+  <div class="section-head">
+    <p class="eyebrow">01 — Selected Work</p>
+    <h2>The Reel</h2>
+    <p class="section-sub">A handful of films from recent weddings and events. Swap these
+      thumbnails for your own footage — each card is built to hold a video or a strong still.</p>
+  </div>
+
+  <div class="reel-grid">
+
+    <article class="reel-card reel-card--lg" data-tone="1">
+      <div class="reel-thumb">
+        <button class="play-btn" aria-label="Play film: The Ceremony, Marlowe &amp; Quinn">
+          <svg viewBox="0 0 24 24" width="22" height="22"><path d="M8 5v14l11-7z" fill="currentColor"/></svg>
+        </button>
+        <span class="reel-runtime">04:12</span>
+      </div>
+      <div class="reel-meta">
+        <span class="reel-tag">Reel 01 — Ceremony</span>
+        <h3>Marlowe &amp; Quinn</h3>
+        <p>Big Sur, California</p>
+      </div>
+    </article>
+
+    <article class="reel-card" data-tone="2">
+      <div class="reel-thumb">
+        <button class="play-btn" aria-label="Play film: The Reception, Ines &amp; Tobias">
+          <svg viewBox="0 0 24 24" width="22" height="22"><path d="M8 5v14l11-7z" fill="currentColor"/></svg>
+        </button>
+        <span class="reel-runtime">03:08</span>
+      </div>
+      <div class="reel-meta">
+        <span class="reel-tag">Reel 02 — Reception</span>
+        <h3>Ines &amp; Tobias</h3>
+        <p>Hudson Valley, New York</p>
+      </div>
+    </article>
+
+    <article class="reel-card" data-tone="3">
+      <div class="reel-thumb">
+        <button class="play-btn" aria-label="Play film: Corporate Gala, Lumen Co.">
+          <svg viewBox="0 0 24 24" width="22" height="22"><path d="M8 5v14l11-7z" fill="currentColor"/></svg>
+        </button>
+        <span class="reel-runtime">02:45</span>
+      </div>
+      <div class="reel-meta">
+        <span class="reel-tag">Reel 03 — Corporate Event</span>
+        <h3>Lumen Co. Gala</h3>
+        <p>Austin, Texas</p>
+      </div>
+    </article>
+
+    <article class="reel-card" data-tone="4">
+      <div class="reel-thumb">
+        <button class="play-btn" aria-label="Play film: Engagement, Priya &amp; Sam">
+          <svg viewBox="0 0 24 24" width="22" height="22"><path d="M8 5v14l11-7z" fill="currentColor"/></svg>
+        </button>
+        <span class="reel-runtime">01:52</span>
+      </div>
+      <div class="reel-meta">
+        <span class="reel-tag">Reel 04 — Engagement</span>
+        <h3>Priya &amp; Sam</h3>
+        <p>Joshua Tree, California</p>
+      </div>
+    </article>
+
+    <article class="reel-card reel-card--lg" data-tone="5">
+      <div class="reel-thumb">
+        <button class="play-btn" aria-label="Play film: Destination Wedding, Camille &amp; Théo">
+          <svg viewBox="0 0 24 24" width="22" height="22"><path d="M8 5v14l11-7z" fill="currentColor"/></svg>
+        </button>
+        <span class="reel-runtime">05:30</span>
+      </div>
+      <div class="reel-meta">
+        <span class="reel-tag">Reel 05 — Destination Wedding</span>
+        <h3>Camille &amp; Théo</h3>
+        <p>Lake Como, Italy</p>
+      </div>
+    </article>
+
+    <article class="reel-card" data-tone="6">
+      <div class="reel-thumb">
+        <button class="play-btn" aria-label="Play film: Brand Film, Hearth Studio">
+          <svg viewBox="0 0 24 24" width="22" height="22"><path d="M8 5v14l11-7z" fill="currentColor"/></svg>
+        </button>
+        <span class="reel-runtime">02:10</span>
+      </div>
+      <div class="reel-meta">
+        <span class="reel-tag">Reel 06 — Brand Film</span>
+        <h3>Hearth Studio</h3>
+        <p>Portland, Oregon</p>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section class="about" id="about">
+  <div class="about-portrait" aria-hidden="true">
+    <div class="portrait-frame"></div>
+  </div>
+
+  <div class="about-content">
+    <p class="eyebrow">02 — About</p>
+    <h2>Hi, I'm <em>[Your&nbsp;Name]</em>.</h2>
+    <p class="about-lede">I've spent the last several years learning what a wedding day
+      actually sounds like — the quiet before the first look, the noise of a dance
+      floor at full tilt, a best man's voice cracking mid-toast. I build films around
+      those sounds, not around a shot list.</p>
+    <p>Based in <em>[Your City, State]</em> and available to travel anywhere the story
+      takes me. Every project is shot, edited, color graded, and mixed by hand — no
+      outsourced editors, no templated cuts.</p>
+
+    <ul class="credits-list">
+      <li><span>Directed by</span><em>[Your Name]</em></li>
+      <li><span>Shot by</span><em>[Your Name]</em></li>
+      <li><span>Edited by</span><em>[Your Name]</em></li>
+      <li><span>Color by</span><em>[Your Name]</em></li>
+      <li><span>Sound design by</span><em>[Your Name]</em></li>
+    </ul>
+
+    <a href="#contact" class="btn btn-ghost">Let's Talk</a>
+  </div>
+</section>
+
+<!-- ============ FORMATS / PRICING ============ -->
+<section class="formats" id="formats">
+  <div class="section-head">
+    <p class="eyebrow">03 — Investment</p>
+    <h2>Choose Your Format</h2>
+    <p class="section-sub">Three ways to tell the story. Every package is fully
+      customizable — these are starting points, not boxes.</p>
+  </div>
+
+  <div class="formats-grid">
+
+    <article class="format-card">
+      <p class="format-kicker">Format 01</p>
+      <h3>The Short Film</h3>
+      <p class="format-price">From $2,400</p>
+      <p class="format-desc">A tight 3–5 minute highlight film for couples who want
+        the feeling of the day without the full runtime.</p>
+      <ul class="format-list">
+        <li>1 cinematographer, up to 8 hours</li>
+        <li>Ceremony &amp; reception coverage</li>
+        <li>3–5 minute edited highlight film</li>
+        <li>Online delivery, full resolution</li>
+      </ul>
+      <a href="#contact" class="btn btn-ghost btn-block">Check Availability</a>
+    </article>
+
+    <article class="format-card format-card--featured">
+      <p class="format-kicker">Format 02 — Most Booked</p>
+      <h3>The Feature</h3>
+      <p class="format-price">From $3,800</p>
+      <p class="format-desc">Our most popular package — full coverage with a longer
+        film and a teaser built for sharing same week.</p>
+      <ul class="format-list">
+        <li>2 cinematographers, full day coverage</li>
+        <li>8–10 minute feature film</li>
+        <li>60–90 second teaser, delivered in 72 hrs</li>
+        <li>Raw ceremony audio &amp; drone footage*</li>
+        <li>USB keepsake box</li>
+      </ul>
+      <a href="#contact" class="btn btn-primary btn-block">Check Availability</a>
+    </article>
+
+    <article class="format-card">
+      <p class="format-kicker">Format 03</p>
+      <h3>The Director's Cut</h3>
+      <p class="format-price">From $5,600</p>
+      <p class="format-desc">Full documentary-style coverage for couples who want
+        nothing left out — rehearsal dinner through send-off.</p>
+      <ul class="format-list">
+        <li>Multi-day coverage, up to 3 shooters</li>
+        <li>20+ minute documentary edit</li>
+        <li>Highlight film &amp; teaser included</li>
+        <li>Same-day edit option for receptions</li>
+        <li>Archival box &amp; raw footage drive</li>
+      </ul>
+      <a href="#contact" class="btn btn-ghost btn-block">Check Availability</a>
+    </article>
+
+  </div>
+  <p class="format-footnote">*Drone footage where permitted by venue and local regulation.</p>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="contact" id="contact">
+  <div class="contact-inner">
+    <p class="eyebrow">04 — Inquire</p>
+    <h2>Tell me about<br>your day.</h2>
+    <p class="section-sub">Fill this in and I'll reply within 48 hours with
+      availability and next steps. No backend is wired up yet — connect this form to
+      a service like Formspree, Basin, or your own endpoint when you're ready to go live.</p>
+
+    <form class="contact-form" id="contactForm">
+      <div class="field-row">
+        <div class="field">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="field">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+      </div>
+      <div class="field-row">
+        <div class="field">
+          <label for="date">Event date</label>
+          <input type="date" id="date" name="date">
+        </div>
+        <div class="field">
+          <label for="type">Event type</label>
+          <select id="type" name="type">
+            <option value="wedding">Wedding</option>
+            <option value="engagement">Engagement</option>
+            <option value="corporate">Corporate event</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+      </div>
+      <div class="field">
+        <label for="message">A little about your day</label>
+        <textarea id="message" name="message" rows="4"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Send the Inquiry</button>
+      <p class="form-status" id="formStatus" role="status"></p>
+    </form>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="footer-row">
+    <a href="#top" class="brand">Golden&nbsp;Hour<span>Films</span></a>
+    <nav class="footer-nav">
+      <a href="mailto:hello@yourdomain.com">hello@yourdomain.com</a>
+      <a href="#">Instagram</a>
+      <a href="#">Vimeo</a>
+    </nav>
+  </div>
+  <div class="footer-row footer-row--meta">
+    <p>Based in [Your City] · Available worldwide</p>
+    <p>&copy; <span id="year"></span> Golden Hour Films. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
